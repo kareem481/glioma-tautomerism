@@ -1,0 +1,31 @@
+# Python Dependencies for Glioma Tautomerism Analysis
+# Install with: pip install -r requirements.txt
+
+# Core data analysis
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Genomic analysis
+SigProfilerMatrixGenerator>=1.2.0
+SigProfilerAssignment>=0.0.24
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Jupyter notebooks
+jupyter>=1.0.0
+notebook>=6.4.0
+ipykernel>=6.0.0
+
+# Statistics
+statsmodels>=0.12.0
+
+# API access (for cBioPortal validation)
+requests>=2.26.0
+bravado>=11.0.0
+
+# Optional: DFT visualization
+py3Dmol>=1.8.0
+ase>=3.22.0

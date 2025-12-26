@@ -1,0 +1,26 @@
+# ORCA 6.1.1 Input File
+# Cytosine amino (canonical) tautomer geometry optimization
+# Level: B3LYP/def2-TZVP with CPCM water solvation
+# Part of: Quantum Tautomerization in Glioma Mutagenesis Study
+# Authors: Almekkawi et al. (2025)
+
+! B3LYP def2-TZVP OPT FREQ CPCM(Water)
+%maxcore 4000
+%pal nprocs 4 end
+
+* xyz 0 1
+N    -2.0234    0.7612    0.0000
+C    -0.6827    0.5618    0.0000
+N     0.1608    1.6234    0.0000
+C     1.4673    1.3534    0.0000
+C     1.9234    0.0234    0.0000
+C     0.9608   -1.0234    0.0000
+N    -0.3827   -0.7618    0.0000
+O     1.3234   -2.1834    0.0000
+N     3.2234   -0.2766    0.0000
+H    -2.5234    1.6234    0.0000
+H    -2.5234   -0.1034    0.0000
+H     2.1608    2.1834    0.0000
+H     3.8234    0.5234    0.0000
+H     3.5234   -1.2334    0.0000
+*
